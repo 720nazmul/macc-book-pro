@@ -1,0 +1,21 @@
+.cart-components img{
+width: 500px;
+}
+.item-site{
+    padding:20px
+}
+.hr{
+    border-top: 2px solid black;
+}
+hr{
+    width:180px
+}
+.hr2{
+    width:350px
+}
+.hr3{
+    width: 100%;
+}
+.input-field{
+    width: 300px;
+}
