@@ -18,11 +18,13 @@
 
     </header>
     <main>
+        <!-- start of main section -->
         <section class="container">
             <div class="cart">
                 <div class="col-md-12 col-lg-10 mx-auto">
                     <div class="cart-components">
                         <div class="row">
+                            <!-- heading site -->
                             <div class="col-md-6">
                                 <img src="images/mac.png" alt="">
                             </div>
@@ -39,35 +41,44 @@
                                         Thunderbolt/USB 4
                                         ports Magic Mouse Magic keyboard US English. </p>
                                 </div>
-                                <div class="button-group">
+                                <!-- product and button section -->
+                                <div class="product-list">
                                     <div class="memory-field">
                                         <h6>Memory</h6>
-                                        <button type="button" class="btn btn-outline-secondary">8GB unfied
+                                        <button id="8gb-memory" type="button" class="btn btn-outline-secondary">8GB
+                                            unfied
                                             memory</button>
-                                        <button type="button" class="btn btn-outline-secondary">16GB unfied
+                                        <button id="16gb-memory" type="button" class="btn btn-outline-secondary">16GB
+                                            unfied
                                             memory</button>
                                     </div>
                                     <br><br>
                                     <div class="storage-field">
                                         <h6>Storage</h6>
-                                        <button type="button" class="btn btn-outline-secondary"> 256GB SSD Storage
+                                        <button id="256-ssd" type="button" class="btn btn-outline-secondary"> 256GB SSD
+                                            Storage
                                         </button>
-                                        <button type="button" class="btn btn-outline-secondary">512GB SSD Storage
+                                        <button id="512-ssd" type="button" class="btn btn-outline-secondary">512GB SSD
+                                            Storage
                                         </button>
-                                        <button type="button" class="btn btn-outline-secondary">1TB SSD Storage
+                                        <button id="1tb-ssd" type="button" class="btn btn-outline-secondary">1TB SSD
+                                            Storage
                                         </button>
                                     </div>
                                     <br><br>
                                     <div class="delivery-field">
                                         <h6>choose your delivery option</h6>
-                                        <button type="button" class="btn btn-outline-secondary">30 jan-22 FREE
+                                        <button id="free-delivery" type="button" class="btn btn-outline-secondary">30
+                                            jan-22 FREE
                                             prime delivery</button>
-                                        <button type="button" class="btn btn-outline-secondary">26 jan-22
+                                        <button id="paid-delivery" type="button" class="btn btn-outline-secondary">26
+                                            jan-22
                                             delivery charge $20 </button>
                                     </div>
                                     <br><br>
+                                    <!-- price section -->
                                     <div class="item-price d-flex">
-
+                                        <!-- price tag -->
                                         <div class="price-tag">
                                             <h6>Best price</h6>
                                             <hr>
@@ -79,35 +90,33 @@
                                             <hr class="hr">
                                             <h5>Total Price</h5>
                                         </div>
+                                        <!-- price -->
                                         <div class="price ">
-                                            <h6>$<span>1299</span></h6>
+                                            <h6>$<span id="best-price">1299</span></h6>
                                             <hr>
-                                            <h6>$<span>0</span></h6>
+                                            <h6>$<span id="ex-memory-cost">0</span></h6>
                                             <hr>
-                                            <h6>$<span>0</span></h6>
+                                            <h6>$<span id="ex-strg-cost">0</span></h6>
                                             <hr>
-                                            <h6>$<span>0</span></h6>
+                                            <h6>$<span id="delivery-cost">0</span></h6>
                                             <hr class="hr">
-                                            <h5>$<span>1299</span></h5>
-
+                                            <h5>$<span id="total-price">1299</span></h5>
                                         </div>
-
                                     </div>
                                     <hr class="hr2">
                                 </div>
+                                <!-- promo code -->
                                 <p>Add promo code</p>
                                 <div class="input-group input-field">
-                                    <input type="text" class="form-control">
-                                    <button class="btn btn-danger" type="button">Apply</button>
-
+                                    <input id="promo-input" type="text" class="form-control">
+                                    <button id="apply-btn" class="btn btn-danger" type="button">Apply</button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
                 <hr class="hr3">
-                <h2 class="text-center">Total: <span>1299</span></h2>
+                <h2 class="text-center">Total: <span id="total">1299</span></h2>
             </div>
         </section>
     </main>
